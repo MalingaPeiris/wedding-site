@@ -1,0 +1,22 @@
+.cover-photo {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  top: 0;
+  max-height: 690px;
+  min-height: 200px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.80;
+  filter: brightness(50%);
+}
+
+.background-photo {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transform: scale(2);
+}
+
